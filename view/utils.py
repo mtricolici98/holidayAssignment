@@ -1,5 +1,3 @@
-
-
 def menu_tool(options_dict, stop_word, menu_text):
     while True:
         print(menu_text)
@@ -12,10 +10,11 @@ def menu_tool(options_dict, stop_word, menu_text):
             continue
         option = int(option)
         try:
-            options_dict[option]() # Calling the function
+            options_dict[option]()  # Calling the function
         except KeyError as ex:
             print('Invalid option', str(ex))
-            
+
+
 def get_date():
     date = input('Day')
     month = input('Month')
