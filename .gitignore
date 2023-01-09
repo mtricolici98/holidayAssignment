@@ -126,3 +126,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+cars.json
+
+customers.json
+
+reservations.json
