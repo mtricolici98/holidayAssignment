@@ -19,4 +19,4 @@ def get_date():
     date = input('Day')
     month = input('Month')
     year = input('Year')
-    return (date, month, year)
+    return (year, month, date)
